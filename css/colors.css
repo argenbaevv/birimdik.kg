@@ -1,5 +1,18 @@
 :root {
+  /* Main colors: */
     --primary: #1991eb;
-    --primary-text: #222222;
-    --bg-grey: #f7f7f7;
+    --bg-grey: #f2f1f0;
+    --bg-grey-secondary: #222324;
+    --bg-white: #fff;
+
+
+  /* Text colors: */
+    --text-dark: #222222;
+    --text-white: #fff;
+
+
+    /* icons */
+    --bg-icon-grey: #e6e6e6;
+    --icon-primary: #222222;
+    --icon-white: #fff;
   }

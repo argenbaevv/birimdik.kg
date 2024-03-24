@@ -1,13 +1,15 @@
 @import url(colors.css);
 
 .button-primary{
+    height: 40px;
     background-color: var(--primary);
-    padding: 8px 20px;
-    border-radius: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
     color: white;
     border: none;
-    font-weight: 400;
+    font-size: 14px;
 }
+
 
 .button-line{
     border: 2px solid var(--primary);
@@ -15,5 +17,32 @@
     border-radius: 30px;
     color: var(--primary);
     font-weight: 400;
+}
+
+.button-light{
+    /* height: 40px; */
+    background-color: var(--bg-white);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: var(--text-dark);
+    border: none;
+    font-size: 14px;
+}
+
+.button-light:hover{
+    background-color:var(--primary);
+    color: var(--text-white);
+}
+
+
+
+.button-dark{
+    /* height: 40px; */
+    background-color: var(--bg-grey-secondary);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: var(--text-white);
+    border: none;
+    font-size: 14px;
 }
 
