@@ -65,7 +65,7 @@ body{
 .category{
     padding-top: 50px;
     height: 300px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .category-box{
