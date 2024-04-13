@@ -12,246 +12,292 @@
 
 <!--Header-->
 <header class="header">
-<nav class="py-2 bg-body-tertiary border-bottom">
-  <div class="container-main d-flex flex-wrap justify-content-between navbar-menu">
-    <ul class="nav me-auto">
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis p-2 active" aria-current="page">Главная</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis p-2">О нас</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis p-2">Информация</a></li>
-    </ul>
-    <ul class="nav">
-      <button class="button-primary mr-20">Разместить объявление</button>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis p-2">Login</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis p-2">Sign up</a></li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-1 pb-1">
+    <div class="container-fluid container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Помощь</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Каталог</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="#" class="me-3"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" class="me-3"><i class="fa-solid fa-heart"></i></a>
+        <a class="me-4 text-white">Вход и Регистрация</a>
+        <button class="btn btn-primary">Разместить объявление</button>
+      </div>
+    </div>
+  </nav>
 </header>
-<!--Category and Search-->
-<div class="search-box pt-3 pb-3 mt-3">
-  <div class="container-main">
+
+ <!--Category and Search-->
+
+<div class="search-box">
+  <div class="container d-flex">
+    
+
+    <div class="logo-search">Birimdik</div>
+
+    <div class="div all-category">
+      <button class="btn btn-primary category-btn"><i class="fa-solid fa-bars"></i> Все категории</button>
+    </div>
+
+    <div class="search">
+      <div class="input-group mb-1">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Поиск" aria-describedby="basic-addon2">
+        <button class="btn btn-primary">Search</button>
+      </div>   
+    </div>
+
+    <div class="location">
+      <a href=""><i class="fa-solid fa-location-dot"></i> Москва</a>
+    </div>
+  </div>
+
+ 
+<!--Block category on click-->
+  
+  <div class="all-category-click">
+    <div class="container">
+      <div class="list-group category-list">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="main-category">
+
+              <li class="list-group-item list-group-item-action">
+                <div class="main-category-img"></div>
+                <div class="category-name">Транспорт</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">Транспорт</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+              </li>
+
+
+              <li class="list-group-item list-group-item-action">
+                <div class="main-category-img"></div>
+                <div class="category-name">Транспорт</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">Транспорт</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+              </li>
+
+
+              <li class="list-group-item list-group-item-action">
+                <div class="main-category-img"></div>
+                <div class="category-name">Транспорт</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">Транспорт</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+              </li>
+
+              <li class="list-group-item list-group-item-action">
+                <div class="main-category-img"></div>
+                <div class="category-name">Транспорт</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">Транспорт</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+              </li>
+
+              <li class="list-group-item list-group-item-action">
+                <div class="main-category-img"></div>
+                <div class="category-name">Транспорт</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">Транспорт</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+
+                <ul class="main-category-item">
+                  <lh><h5><a href="#">dfgd</a></h5></lh>
+                  <li><a href="#">Автомобили</a></li>
+                  <li><a href="#">Мотоциклы</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                  <li><a href="#">Подкатегории</a></li>
+                </ul>
+              </li>
+
+
+             
+              
+
+             
+
+              
+
+              
+
+             
+
+              
+            </ul>
+          </div>
+
+         
+        </div>
+
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<main>
+  <div class="container">
     <div class="row">
-      <div class="col-lg-2">
-        <img class="logo-search-box" src="/img/birimdik.logo.png">
-      </div>
-      <div class="col-lg-2 pt-2">
-        <button class="button-primary"><i class="fa-solid fa-bars"></i> Категории</button>
-      </div>
-      <div class="col-lg-6 pt-2">
-        <div class="search d-flex justify-content-between">
-          <input class="search-input" type="text" placeholder="Поиск по объявлениям">
-          <button class="button-primary">Поиск</button>
+      <!--Main-left-->
+      <div class="main-left col-lg-9">
+
+        <div class="category-slider">
+          <div class="category-slider-box big-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box big-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box big-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box small-size">1</div>
+          <div class="category-slider-box big-size">1</div>
+          <div class="category-slider-box big-size">1</div>
+          <div class="category-slider-box big-size">1</div>
+
+
+
+          
+
+          
+
         </div>
+
       </div>
-      <div class="col-lg-2 pt-2">
-        <div class="search-region pt-2">
-          <a href="#">Москва</a>
-        </div>
-      </div>
+
+
+      <!--Main-Right-->
+      <div class="main-right col-lg-3">2</div>
     </div>
   </div>
-</div>
+</main>
 
-<!-- Slider (Слайдер должен должен менятся автоматически!!)-->
 
-<div class="category mb-5">
-  <div class="container-main">
-    <div class="row category-box">
-      <div class="col-lg-2 col-md-4 col-sm-6 col-6 category-item">
-        <div class="category-name">Недвижимость</div>
-        <div class="transport"></div>
-      </div>
 
-      <div class="col-lg-2 col-md-4 col-sm-6 col-6 category-item">
-        <div class="category-name">Транспорт</div>
-        <div class="auto"></div>
-      </div>
 
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Услуги</div>
-        <div class="service"></div>
-      </div>
 
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Услуги</div>
-        <div class="service"></div>
-      </div>
-      
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Дом и сад</div>
-        <div class="plants"></div>
-      </div>
 
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Работа</div>
-      </div>
-
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Мода и стиль</div>
-      </div>
-      
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Отдых и спорт</div>
-      </div>
-
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Услуги</div>
-        <div class="service"></div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6 col-6 category-item">
-        <div class="category-name">Детский мир</div>
-      </div>
-
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Работа</div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6 col-6 category-item">
-        <div class="category-name">Мода и стиль</div>
-      </div>
-      
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Отдых и спорт</div>
-      </div>
-
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Услуги</div>
-        <div class="service"></div>
-      </div>
-
-      <div class="col-lg-1 col-md-2 col-sm-2 col-3 category-item">
-        <div class="category-name">Дом и сад</div>
-        <div class="plants"></div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-sm-6 col-6 category-item ">
-        <div class="category-name">Мода и стиль</div>
-      </div>
-
-      
-
-      
-     
-    </div>
-  </div>
-</div>
-
-<!--Slider prom-->
-<div class="slider-box mb-5">
-  <div class="container-main">
-    <div class="slider">
-      <button class="button-light">Подробнее</button>
-    </div>
-  </div>
-</div>
-
-<!--title section-->
-<div class="title">
-  <div class="container-main">
-    <h3>Товары</h3>
-  </div>
-</div>
-
-<!--Card box-->
-<div class="card-box">
-  <div class="container-main">
-    <div class="row">
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-        <div class="card mb-3">
-          <div class="card-img">
-            <button class="like"><i class="fa-regular fa-heart"></i></button>
-          </div>
-          <div class="card-text p-2">
-            <div class="card-title">Title Title</div>
-            <div class="card-price pb-2">1000 руб</div>
-            <span class="card-address">Москва</span><br>
-            <span class="card-date">Сегодня 08:56</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="show-more-box mb-5">
-      <button class="button-primary show-more">Показать ещё</button>
-    </div>
-
-  </div>
-</div>
-
-<!--Footer-->
 
 
 
