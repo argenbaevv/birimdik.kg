@@ -11,6 +11,16 @@ a:hover{
     cursor: pointer;
 }
 
+.btn-primary{
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-secondary{
+    background-color: rgb(193, 193, 196);
+    border: none;
+}
+
 
 
 .header{
@@ -21,6 +31,10 @@ a:hover{
     color: var(--text-white);
 }
 
+
+header, .search-box{
+    position: static;
+}
 
 /* Category, slider and Search */
 
@@ -166,7 +180,7 @@ main{
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(var(--columns), [ col ] 1fr);
-    grid-template-rows: repeat(2, [ row ] 90px);
+    grid-template-rows: repeat(3, [ row ] 90px);
 }
 
 .category-slider-box{
@@ -181,6 +195,10 @@ main{
     color: #000;
 }
 
+.category-slider-box:hover{
+    background-color: #e9e9e7;
+}
+
 .big-size{
     grid-column: span 3;
 }
@@ -189,6 +207,284 @@ main{
     grid-column: span 2;
 }
 
+.category-slider-box a{
+    text-decoration: none;
+}
+
+.category-slider-box article{
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.category-img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top:0;
+    right: 0;
+    z-index: 1;
+}
+
+.auto{
+    width: 120px;
+    height: 110px;
+    background-image: url("../img/car.png");
+    background-size: cover;
+    top: -20px;
+    right: -15px;
+}
+
+.building{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/building.png");
+    background-size: cover;
+    top: 10px;
+    right: -20px;
+}
+
+.service{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/settings.png");
+    background-size: cover;
+    top: 10px;
+    right: -10px;
+}
+
+.electronics{
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/electronics.png");
+    background-size: cover;
+    top: -10px;
+    right: -10px;
+}
+
+.house{
+    width: 130px;
+    height: 130px;
+    background-image: url("../img/sofa.png");
+    background-size: cover;
+    top: -10px;
+    right: -30px;
+}
+
+.work{
+    width: 110px;
+    height: 110px;
+    background-image: url("../img/work.png");
+    background-size: cover;
+    top: -5px;
+    right: 10px;
+}
+
+.toys{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/toys.png");
+    background-size: cover;
+    top: 15px;
+    right: -20px;
+}
+
+.sport{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/sport.png");
+    background-size: cover;
+    top: 0;
+    right: -15px;
+}
+
+.animal{
+    width: 100px;
+    height: 80px;
+    background-image: url("../img/dog.png");
+    background-size: cover;
+    top: 15px;
+    right: -5px;
+}
+
+.fishing{
+    width: 150px;
+    height: 100px;
+    background-image: url("../img/fishing.png");
+    background-size: cover;
+    top: 10px;
+    right: -20px;
+}
+
+.gifts{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/gift.png");
+    background-size: cover;
+    top: 5px;
+    right: -5px;
+}
+
+.personal{
+    width: 110px;
+    height: 110px;
+    background-image: url("../img/personal.png");
+    background-size: cover;
+    top: 10px;
+    right: -10px;
+}
+
+.medical{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/medical.png");
+    background-size: cover;
+    top: 0;
+    right: -5px;
+}
+
+/* Slider full */
+
+.slider-full{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-img{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/sale.jpg");
+    background-size: cover;
+}
+
+/* Product box */
+
+.product-box{
+    margin-top: 100px;
+}
+
+.product-box a{
+    text-decoration: none;
+}
+
+.product:hover{
+    border: 1px solid var(--primary);
+}
+
+.product{
+    overflow: auto;
+    border: 1px solid rgb(243, 241, 241);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.product-img{
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/product1.jpg");
+    background-size: cover;
+}
+
+.liked{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    color: grey;
+}
+
+.product-name{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: var(--primary);
+    font-size: 0.9em;
+}
+
+.product-price{
+    padding: 0;
+    margin: 0;
+    color: var(--text-dark);
+    font-size: 1.2em;
+}
+
+
+.subway{
+    display: flex;
+}
+
+.subway-icon{
+    width: 15px;
+    height: 10px;
+    background-image: url("../img/Moscow_Metro.svg");
+    background-size: cover;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.subway-name{
+    color: rgb(175, 174, 174);
+    font-size: 14px;
+}
+
+.product-date{
+    color: rgb(175, 174, 174);
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+/* Main Right */
+.main-right{
+    padding-left: 20px;
+}
+
+.add-right{
+    margin-left: 10px;
+    width: 100%;
+    height: 450px;
+    background-color: grey;
+    padding: 0;
+    position: relative;
+}
+
+.black-box{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 30%;
+}
+
+.add-right:hover{
+    .black-box{
+        display: block;
+    }
+}
+
+.add-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/post.jpg");
+    background-size: cover;
+}
 
 
 
