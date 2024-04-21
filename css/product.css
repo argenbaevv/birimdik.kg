@@ -1,0 +1,20 @@
+
+
+.large-img{
+    height: 500px;
+    background-image: cover;
+}
+
+.product{
+    border: none;
+    padding: 0;
+}
+
+.product-box{
+    margin-top: 0;
+}
+
+.product:hover{
+    box-shadow: none;
+}
+
