@@ -18,7 +18,7 @@ body{
     background-color: #FFFFFF;
     /* border: 1px solid grey; */
     border-radius: 10px;
-    padding: 50px;
+    padding: 50px 50px;
     float: left;
     box-shadow: 3px 0px 8px -3px rgba(34, 60, 80, 0.2);
 }
@@ -77,12 +77,10 @@ body{
 }
 
 .or{
-    width: 10%;
+    width: 100%;
+    text-align: center;
     height: 50px;
     float: left;
-    /* padding-right: 20px;
-    padding-left: 20px; */
-    text-align: center;
     padding: 0 30px;
     color:#9794AA;
 }
@@ -103,6 +101,7 @@ body{
     color: #FF3D00;
     border-radius: 6px;
     float: left;
+    margin: 0 auto;
 }
 
 .facebook{

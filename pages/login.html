@@ -13,29 +13,48 @@
 
     <div class="container">
         <div class="auth">
-            <h1>Регистрация в Биримдик</h1>
+            <h1>Регистрация</h1>
             <p class="have-account">Уже есть аккаунт<a href="#"> Войти</a></p>
 
-            <p class="input-name">Full Name</p>
-            <input type="text" placeholder="David Goliath">
+            <p class="input-name">Номер телефона</p>
+            <div class="phone-number d-flex justify-content-between">
+                <select name="" id="" class="form-control me-2" style="width: 10%;">
+                    <option value="">🇷🇺</option>
+                    <option value="">🇲🇹</option>
+                    <option value="">🇷🇺</option>
+                </select>
+                <input type="num" placeholder="000 000 00 00">
+            </div>
+            
 
-            <p class="input-name">Email Address</p>
-            <input type="text" placeholder="Enter your email address">
+            <p class="input-name">Пароль</p>
+            <input type="password" placeholder="Введите ваш пароль">
 
-            <p class="input-name">Password</p>
-            <input type="text" placeholder="Create your password">
 
-            <button class="create-account" type="submit">Регистрация</button>
+            <button class="create-account" type="submit">Войти</button>
 
             <div class="line">
-                <div class="line1"></div>
-                <div class="or"><span>or</span></div>
-                <div class="line2"></div>
+                <div class="or"><a><span>Забыли пароль?</span></a></div>
             </div>
 
+            
 
-            <button type="submit" class="google"><i class="fa-brands fa-google padding-right"></i>Google</button>
-            <button type="submit" class="facebook"><i class="fa-brands fa-facebook-f padding-right"></i>Facebook</button>
+            <script src="https://accounts.google.com/gsi/client" async></script>
+            <div id="g_id_onload"
+                data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                data-login_uri="https://your.domain/your_login_endpoint"
+                data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                data-type="standard"
+                data-size="large"
+                data-theme="outline"
+                data-text="sign_in_with"
+                data-shape="rectangular"
+                data-logo_alignment="left">
+            </div>
+
+            
 
         </div>
 
