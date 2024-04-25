@@ -87,6 +87,10 @@ a:hover{
 }
 
 
+.block{
+    display: block;
+}
+
 /* Block All Category OnCLick */
 
 .all-category-click{

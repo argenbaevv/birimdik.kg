@@ -1,3 +1,3 @@
-$("#all-category-button").click(function(){
-    alert("All category is clicked");
+$("#all-category-button").onClick(function(){
+    $("#all-category-click").css("display:block");
 });
