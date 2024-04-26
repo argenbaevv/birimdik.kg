@@ -1,3 +1,5 @@
-$("#all-category-button").onClick(function(){
-    $("#all-category-click").css("display:block");
+$("#all-category-button").click(function(){
+    console.log("hello");
 });
+
+

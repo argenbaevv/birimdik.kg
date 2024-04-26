@@ -4,6 +4,7 @@
     width: 100%;
     height: 400px;
     background-image: cover;
+    margin-bottom: 10px;
 }
 
 .product{
@@ -26,4 +27,37 @@
         display: none;
     }
 }
+
+.product-img-slider{
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1514348871858-1d3c20902571?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.btn-big{
+    height: 60px;
+}
+
+.product-desc-text{
+    display: block;
+}
+
+.product-desc{
+    display: block;
+}
+
+.block-user{
+    text-align: center;
+}
+
+.product-date-desk{
+    color: rgb(175, 174, 174);
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+
 
